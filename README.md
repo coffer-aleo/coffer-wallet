@@ -1,13 +1,27 @@
 # Coffer multisig wallet
 
-## Build Guide
+## Guide
 
-To compile this Aleo program, run:
-```bash
-snarkvm build
+Create and mint token:
+```
+create_token / mint_token_private
 ```
 
-To execute this Aleo program, run:
-```bash
-snarkvm run hello
+Create wallet with 3 owners:
 ```
+create_wallet3
+```
+
+Deposit tokens to wallet:
+```
+deposit
+```
+
+Create and manage transfer:
+```
+create_transfer3
+confirm_transfer/reject_transfer
+execute_confirmed_transfer
+```
+
+
